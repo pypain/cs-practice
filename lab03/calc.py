@@ -8,3 +8,5 @@ elif operation == '-':
     print(first - second)
 elif operation == '*':
     print(first * second)
+elif operation == '/':
+    print(first / second)
