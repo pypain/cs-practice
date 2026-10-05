@@ -8,3 +8,8 @@ elif operation == '-':
     print(first - second)
 elif operation == '*':
     print(first * second)
+elif operation == '/':
+    if second != 0:
+        print(first / second)
+    else:
+        print("нельзя делить на ноль")
