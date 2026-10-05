@@ -4,3 +4,5 @@ operation = input('введите символ операции: ')
 
 if operation == '+':
     print(first + second)
+elif operation == '-':
+    print(first - second)
